@@ -1,9 +1,3 @@
-# Car Price Prediction
-
-Проект по предсказанию цены продажи автомобиля (задача **регрессии**) на датасете CarDekho / Car Price Prediction.
-
-Целевая переменная: `Selling_Price`.
-
 ## Структура проекта
 
 ```
@@ -37,7 +31,7 @@ pip install -r requirements.txt
 
 ### 2. Данные
 
-Файлы с данными в репозиторий **не коммитятся**. Положите их в `./data`:
+Файлы с данными в репозиторий не коммитятся. Положите их в `./data`:
 
 - `data/dataset.csv` — исходный датасет
 - `data/clean_data.pkl` — очищенный датасет после EDA
@@ -50,7 +44,6 @@ pip install -r requirements.txt
 source .venv/bin/activate
 cd eda
 jupyter notebook eda.ipynb
-# или откройте eda.ipynb в VS Code / Cursor
 ```
 
 ### 4. MLflow (ЛР2)
@@ -112,4 +105,4 @@ jupyter notebook research.ipynb
 
 ## Примечания
 - Данные (`.csv`, `.pkl`) и артефакты MLflow (`mlruns.db`, `mlartifacts/`) не коммитятся — храните их отдельно (флешка / облако).
-- Скрипт `mlflow/start_mlflow.sh` должен быть в репозитории и запускаться **из каталога** `mlflow/`.
+- Скрипт `mlflow/start_mlflow.sh` должен быть в репозитории и запускаться из каталога `mlflow/`.
