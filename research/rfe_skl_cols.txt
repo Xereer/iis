@@ -1,1 +1,0 @@
-['num__Present_Price', 'quantile__Year', 'quantile__Present_Price']
