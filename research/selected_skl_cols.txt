@@ -1,0 +1,1 @@
+['num__Year', 'num__Present_Price', 'num__Driven_kms', 'cat__Car_Name', 'cat__Fuel_Type', 'cat__Selling_type', 'cat__Transmission', 'cat__Driven_run', 'quantile__Year']

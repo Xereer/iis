@@ -102,7 +102,3 @@ jupyter notebook research.ipynb
 - сравните runs в UI MLflow;
 - сохраните скриншоты `research/model_runs.png` и `research/model_versions.png`;
 - скачайте `MLmodel` Production-версии в `research/mlmodel_file`.
-
-## Примечания
-- Данные (`.csv`, `.pkl`) и артефакты MLflow (`mlruns.db`, `mlartifacts/`) не коммитятся — храните их отдельно (флешка / облако).
-- Скрипт `mlflow/start_mlflow.sh` должен быть в репозитории и запускаться из каталога `mlflow/`.

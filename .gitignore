@@ -2,5 +2,7 @@
 *.pkl
 .venv*
 *.db
+data/clean_data.pkl
+data/dataset.csv
 mlartifacts/
 mlruns/
